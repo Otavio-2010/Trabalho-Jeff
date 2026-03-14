@@ -45,10 +45,38 @@
         nav a:hover {
             color: #667eea;
         }
+
+        div li {
+            color: #f1f1f1;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        div h2 {
+            color: #f1f1f1;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        div p {
+            color: #f1f1f1;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
         .container {
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
+        }
+
+        div a{
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        div a:hover {
+            color: #ff0000;
         }
         
     </style>
@@ -66,7 +94,13 @@
         <a href="projetos.html">Projetos</a>
     </nav>
 
-    
-    
+    <div class="container">
+        <h2>Meus Projetos</h2>
+        <p>Aqui estão alguns dos projetos que desenvolvi:</p>
+        <ul>
+            <li><a href="index.html">Projeto 1:</a>Um site de portfólio pessoal usando HTML e CSS.</a></li>
+            <li><a href="">Projeto 2:</a>Um site sobre os 3 personagens principais de Harry Potter.</li>
+        </ul>
+    </div>
 </body>
 </html>
